@@ -1,0 +1,32 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato";
+}
+
+:root{
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --bg-section: #f6f6f6;
+    --padding-section: 80px;
+    --gray-paragraph: #777;
+    --main-transition: 0.3s;
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

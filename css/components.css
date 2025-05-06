@@ -1,0 +1,47 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.title-section {
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+.title-section > h3{
+    font-size: 100px;
+    font-style: italic;
+    color: #ebeced;
+}
+
+.title-section > p{
+    margin-top: -35px;
+    color: var(--gray-paragraph);
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .title-section > h3{
+        font-size: 80px;
+    }
+}

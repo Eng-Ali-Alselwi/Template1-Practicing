@@ -1,0 +1,58 @@
+/* Start Landing  */
+@media (max-width:767px){
+    .landing-section {
+        background-image: url('../images/landing4.jpg');
+    }
+    .landing-section .text h2 {
+        font-size: 30px;
+    }
+    .landing-section .text p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+}
+/* End Landing  */
+
+
+/* Start Services  */
+@media (max-width:1200px){
+    .services-section .content .col-image{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .services-section .content .col .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .services-section .content .col .row .text h3{
+        margin: 10px auto;
+    }
+}
+@media (max-width:664px){
+    .services-section .content{
+        flex-direction: column;
+    }
+}
+/* End Services  */
+
+
+/* Start About  */
+@media (max-width:992px){
+    .about-section .image {
+        margin: 0 auto 40px;
+    }
+    .about-section .image::before,
+    .about-section .image::after {
+        display: none;
+    }
+    .about-section .container .text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .about-section .container .text hr{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* End About  */
